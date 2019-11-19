@@ -1,0 +1,72 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.6;
+	background: #eee;
+	color: #3a3a3a;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+#main {
+	max-width: 600px;
+	margin: 0 auto;
+	font-weight: normal;
+	font-size: 1.25em;
+}
+
+#title {
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.441em;
+}
+
+#tribute-info {
+	line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (max-width: 769px) {
+
+	#main {
+		font-size: 1em;
+	}
+
+	#tribute-info {
+		line-height: 1.2;
+	}
+
+	img {
+		margin: 0 auto;
+		width: 80%;
+	}
+}
